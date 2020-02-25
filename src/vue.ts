@@ -7,7 +7,7 @@ import {
     dateFormat,
     minorUnit,
     spaceSplit,
-} from "~filter";
+} from "./filter";
 
 export default () => {
     // FIXME tsで?演算子使えるのでいらないかも
