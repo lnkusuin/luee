@@ -58,11 +58,11 @@ export const minorUnit = (val: string, prefix = "￥") => {
 };
 
 /**
- *
+ * 指定の文字列を半角スペースで分割し、配列に格納する
  * @param val
- * @returns {*}
+ * string[] | string
  */
-export const spaceSplit = (val: string) => {
+export const spaceSplit = (val: string): string[] | string => {
     if (!val) { return ""; }
 
     return val.split(" ");
@@ -76,6 +76,7 @@ export const spaceSplit = (val: string) => {
  */
 export const dateFormat = (val: string, format = "YYYY/MM/DD") => {
     if (!val) { return ""; }
+
     // 日付不正時のmomentの警告対策のため、一度Dateインスタンス化
     const date = moment(new Date(val));
 

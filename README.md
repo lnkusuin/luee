@@ -8,17 +8,35 @@
   <a href="https://www.npmjs.com/package/l-vue-filter"><img src="https://badgen.net/npm/license/l-vue-filter" alt="License"></a>
  </p>
  
-### 使い方
-
 ### install
 
 ```bash
 npm install --save l-vue-filter
 ```
 
+Vue.use でvue フィルターとして使用可能になります。
 ```javascript
 import Vue from "vue"
 import VueFilter from "l-vue-filter"
 
 Vue.use(VueFilter)
+```
+
+### 使い方
+
+* [Cutフィルター](https://github.com/inkusu/l-vue-filter/blob/master/src/filter.ts#L15)
+* [combinationFromArrayToStrフィルター](https://github.com/inkusu/l-vue-filter/blob/master/src/filter.ts#L30)
+* [minorUnitフィルター](https://github.com/inkusu/l-vue-filter/blob/master/src/filter.ts#L54)
+* [spaceSplitフィルター](https://github.com/inkusu/l-vue-filter/blob/master/src/filter.ts#L65)
+* [dateFormatフィルター](https://github.com/inkusu/l-vue-filter/blob/master/src/filter.ts#L77) 
+
+### Vue filterなしでフィルタリング関数を使用する
+
+```javascript
+import {filters} from "l-vue-filter"
+
+const ret = filters.cut("")
+
+// 処理・・・
+
 ```
