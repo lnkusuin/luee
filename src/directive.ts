@@ -1,3 +1,6 @@
+// tslint:disable-next-line:no-var-requires
+const inViewport = require("in-viewport");
+
 /**
  * 自動でカンマを追加する
  */

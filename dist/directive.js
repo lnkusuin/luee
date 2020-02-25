@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+const inViewport = require("in-viewport");
 exports.setComma = {
     bind(el, binding, vnode) {
         el.addEventListener("blur", (e) => {
