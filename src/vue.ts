@@ -29,6 +29,6 @@ export const VueFilter = {
 
 export const VueDirective = {
     install: (Vue: any, options: any) => {
-        Vue.filter("set-comma", setComma);
+        Vue.directive("set-comma", setComma);
     },
 };

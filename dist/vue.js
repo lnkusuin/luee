@@ -18,7 +18,7 @@ exports.VueFilter = {
 };
 exports.VueDirective = {
     install: (Vue, options) => {
-        Vue.filter("set-comma", directive_1.setComma);
+        Vue.directive("set-comma", directive_1.setComma);
     },
 };
 //# sourceMappingURL=vue.js.map
