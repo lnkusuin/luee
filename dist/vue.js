@@ -13,6 +13,6 @@ exports.default = {
         Vue.filter("dateFormat", filter_1.dateFormat);
         Vue.filter("get", _.get);
         Vue.filter("has", _.has);
-    }
+    },
 };
 //# sourceMappingURL=vue.js.map
