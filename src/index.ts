@@ -1,6 +1,6 @@
 import * as _filters from "./filter";
-import enable from "./vue";
+import VueFilter from "./vue";
 
-export default enable;
+export default VueFilter;
 
 export const filters = _filters;

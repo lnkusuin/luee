@@ -4,13 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "run": "ts-node index.ts"
+    "run": "ts-node tsconfig.json index.ts"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "l-vue-filter": "0.0.6",
-    "ts-node": "^8.6.2"
+    "l-vue-filter": "^0.0.9",
+    "ts-node": "^8.6.2",
+    "vue": "^2.6.11"
   },
   "devDependencies": {
     "@types/jest": "24.0.9",

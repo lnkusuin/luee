@@ -1,4 +1,4 @@
 import * as _filters from "./filter";
-import enable from "./vue";
-export default enable;
+import VueFilter from "./vue";
+export default VueFilter;
 export declare const filters: typeof _filters;

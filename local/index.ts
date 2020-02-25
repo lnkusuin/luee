@@ -1,5 +1,4 @@
-import enable from "l-vue-filter"
+import Vue from 'vue'
+import VueFilter from "./../dist"
 
-enable()
-
-
+Vue.use(VueFilter)
