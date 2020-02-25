@@ -17,7 +17,8 @@ npm install --save l-vue-filter
 ```
 
 ```javascript
-import enable from "l-vue-filter"
+import Vue from "vue"
+import VueFilter from "l-vue-filter"
 
-enable()
+Vue.use(VueFilter)
 ```
