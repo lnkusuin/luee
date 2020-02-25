@@ -21,4 +21,4 @@ export default () => {
     Vue.filter("dateFormat", dateFormat);
     Vue.filter("get", _.get);
     Vue.filter("has", _.has);
-}
+};

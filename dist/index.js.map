@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","sourceRoot":"","sources":["../src/index.ts"],"names":[],"mappings":";;AAAA,qCAAqC;AACrC,+BAA2B;AAE3B,kBAAe,aAAM,CAAC;AAET,QAAA,OAAO,GAAG,QAAQ,CAAC","sourcesContent":["import * as _filters from \"./filter\";\nimport enable from \"./vue\";\n\nexport default enable;\n\nexport const filters = _filters;\n"]}
