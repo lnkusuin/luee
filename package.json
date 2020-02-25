@@ -1,7 +1,7 @@
 {
   "name": "time-context",
-  "version": "1.0.6",
-  "description": "現在時刻置き換えモジュール",
+  "version": "0.0.1",
+  "description": "Vue Filter",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -31,9 +31,9 @@
   },
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/inkusu/time-context/issues"
+    "url": "https://github.com/inkusu/l-vue-filter/issues"
   },
-  "homepage": "https://github.com/inkusu/time-context#readme",
+  "homepage": "https://github.com/inkusu/l-vue-filter#readme",
   "peerDependencies": {
     "typescript": ">=2.0"
   },
