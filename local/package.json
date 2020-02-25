@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "l-vue-filter": "^0.0.9",
+    "l-vue-filter": "^0.0.15",
     "ts-node": "^8.6.2",
     "vue": "^2.6.11"
   },
