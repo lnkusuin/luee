@@ -13,10 +13,10 @@ before_install:
 script:
 - npm run prepare
 
-after_script:
-- |
-  # Upload coverage to codecov
-  npm run codecov
+#after_script:
+#- |
+#  # Upload coverage to codecov
+#  npm run codecov
 
 deploy:
   provider: npm
