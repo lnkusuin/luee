@@ -6,13 +6,15 @@ const inViewport = require("in-viewport");
  */
 export const setComma = {
     bind(el: any, binding: any, vnode: any) {
-        el.addEventListener("blur", (e: any) => {
 
+        const target = el.tagName === "INPUT" ? el : el.querySelector("input");
+
+        target.addEventListener("blur", (e: any) => {
             let commaValue: string;
             // @ts-ignore
-            commaValue = (e.target as HTMLTextAreaElement).value.replace(/,/g, "")
+            commaValue = (e.target as HTMLTextAreaElement).value.replace(/,/g, "");
                 // @ts-ignore
-                (e.target as HTMLTextAreaElement).value = commaValue.replace(
+            (e.target as HTMLTextAreaElement).value = commaValue.replace(
                 /(\d)(?=(\d\d\d)+(?!\d))/g,
                 "$1,",
             );
