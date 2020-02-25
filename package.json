@@ -1,6 +1,6 @@
 {
   "name": "time-context",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Vue Filter",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
