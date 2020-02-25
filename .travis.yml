@@ -1,0 +1,25 @@
+language: node_js
+node_js:
+- '10'
+- '11'
+sudo: false
+cache:
+  directories:
+  - node_modules
+
+before_install:
+- npm install
+
+script:
+- npm run prepare
+
+#after_script:
+#- |
+#  # Upload coverage to codecov
+#  npm run codecov
+
+deploy:
+  provider: npm
+  email: lnkusuin@gmail.com
+  api_key: 6ca95757-cb21-4b5b-bb84-8c481b6937b2
+
