@@ -102,4 +102,11 @@ describe('フィルター関数の動作確認', () => {
 
         expect(ret).toEqual('2018/09/01')
     })
+
+    test('dateFormat - 日付フォーマットにミリセカンド与えた時に変換ができていることを確認', async () => {
+        let date = 1583984201921
+        let ret = dateFormat(date)
+
+        expect(ret).toEqual('2020/03/12')
+    })
 })

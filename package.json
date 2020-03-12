@@ -11,7 +11,7 @@
     "prepare": "npm run build && npm run lint",
     "codecov": "codecov",
     "publish": "npm version patch && git push origin master --force",
-    "local-publish": "npm version patch && npm publish --access public && git push origin master --force"
+    "local-publish": "npm publish --access public && git push origin master --force"
   },
   "engines": {
     "node": ">=10.0.0"

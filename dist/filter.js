@@ -34,6 +34,9 @@ exports.dateFormat = (val, format = "YYYY/MM/DD") => {
     if (!val) {
         return "";
     }
+    if (!isNaN(val)) {
+        val = Number(val);
+    }
     const date = moment(new Date(val));
     if (date.isValid()) {
         return date.format(format);
