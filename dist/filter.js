@@ -1,6 +1,9 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-const moment = require("moment");
+exports.dateFormat = exports.spaceSplit = exports.minorUnit = exports.combinationFromArrayToStr = exports.cut = void 0;
+const dayjs = require("dayjs");
+require("dayjs/locale/ja");
+dayjs.locale('ja');
 exports.cut = (str, limit = 20, decoration = "・・・") => {
     if (limit >= str.length) {
         return str;
@@ -37,7 +40,7 @@ exports.dateFormat = (val, format = "YYYY/MM/DD") => {
     if (!isNaN(val)) {
         val = Number(val);
     }
-    const date = moment(new Date(val));
+    const date = dayjs(new Date(val));
     if (date.isValid()) {
         return date.format(format);
     }

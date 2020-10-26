@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.setComma = void 0;
 const inViewport = require("in-viewport");
 exports.setComma = {
     bind(el, binding, vnode) {

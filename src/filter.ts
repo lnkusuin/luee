@@ -2,7 +2,10 @@
  * 単体テストを実行できるようにするために、フィルタリング系の関数をここで定義
  */
 
-import * as moment from "moment";
+import * as dayjs from "dayjs";
+import 'dayjs/locale/ja';
+
+dayjs.locale('ja');
 
 /**
  * 文字列カット関数
@@ -82,8 +85,7 @@ export const dateFormat = (val: string | number, format = "YYYY/MM/DD") => {
         val = Number(val);
     }
 
-    // 日付不正時のmomentの警告対策のため、一度Dateインスタンス化
-    const date = moment(new Date(val));
+    const date = dayjs(new Date(val));
 
     if (date.isValid()) {
         return date.format(format);
