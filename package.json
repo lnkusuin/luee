@@ -50,7 +50,7 @@
     "@types/jest": "27.4.1",
     "@types/lodash.get": "4.4.7",
     "@types/lodash.has": "4.5.7",
-    "jest": "28.0.2",
+    "jest": "28.0.3",
     "rimraf": "3.0.2",
     "ts-jest": "27.1.4",
     "tslint": "6.1.3",
