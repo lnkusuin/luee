@@ -13,7 +13,7 @@
     "vue": "^3.0.0"
   },
   "devDependencies": {
-    "@types/jest": "27.5.1",
+    "@types/jest": "27.5.2",
     "jest": "28.1.0",
     "rimraf": "3.0.2",
     "ts-jest": "28.0.3",
