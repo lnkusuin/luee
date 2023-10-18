@@ -992,10 +992,10 @@
   dependencies:
     "@types/lodash" "*"
 
-"@types/lodash.has@4.5.7":
-  version "4.5.7"
-  resolved "https://registry.yarnpkg.com/@types/lodash.has/-/lodash.has-4.5.7.tgz#9e1c3da3ee67f68fadc3d168ffdf8e11a3f3ccd3"
-  integrity sha512-nfbAzRbsZBdzSAkL9iiLy4SQk89uuFcXBFwZ7pf6oZhBgPvNys8BY5Twp/w8XvZKGt1o6cAa85wX4QhqO3uQ7A==
+"@types/lodash.has@4.5.8":
+  version "4.5.8"
+  resolved "https://registry.yarnpkg.com/@types/lodash.has/-/lodash.has-4.5.8.tgz#ebb476a8b4ba3c6e64d66f5714b602599d900a82"
+  integrity sha512-p4jwTozqSKqaF8pd56aN3dl3KTzIiAkVvIFiGGo+7YOqlWXXAbIQC+mC0RlVq+moYacQI53HmoPuGH8Y7k5lbw==
   dependencies:
     "@types/lodash" "*"
 
