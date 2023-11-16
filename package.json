@@ -57,7 +57,7 @@
     "tslint-config-standard": "9.0.0",
     "typescript": "5.2.2",
     "webpack": "5.89.0",
-    "webpack-bundle-analyzer": "4.10.0",
+    "webpack-bundle-analyzer": "4.10.1",
     "webpack-cli": "5.1.4"
   },
   "publishConfig": {
